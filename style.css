@@ -1,0 +1,60 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting font-family */
+body {
+    font-family: Arial, sans-serif; /* Example font-family */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em; /* 200% of default size */
+}
+
+/* Section styles */
+.section {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/* Section title styles */
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #3498db; /* Example color */
+    color: white; /* Adjust text color for readability */
+    padding: 5px 10px;
+    border-bottom-left-radius: 5px;
+    font-size: 125%; /* 25% larger than default size */
+}
+
+/* Content styles */
+p {
+    padding: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
