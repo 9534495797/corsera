@@ -1,0 +1,17 @@
+/* styles.css */
+
+/* Adjust height of navbar */
+.navbar {
+    min-height: 60px; /* Adjust as needed */
+}
+
+/* Add background color to dropdown menu */
+.navbar-collapse {
+    background-color: #f8f8f8; /* Adjust as needed */
+}
+
+/* Style main section */
+.main-section {
+    background-color: #f2f2f2; /* Adjust as needed */
+    padding: 20px 0; /* Adjust as needed */
+}
